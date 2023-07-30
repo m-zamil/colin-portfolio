@@ -1,0 +1,364 @@
+@font-face {
+  font-family: 'Articulat CF';
+  src: url('./fonts/Articulat-CF-Normal.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Articulat CF';
+  src: url('./fonts/Articulat-CF-Demi-Bold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Articulat CF';
+  src: url('./fonts/Articulat-CF-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Articulat CF';
+  src: url('./fonts/Articulat-CF-Extra-Bold.otf');
+  font-weight: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Articulat CF', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+body {
+  font-family: inherit;
+  background-color: white;
+  color: #36383b;
+  padding: 0 20px;
+  margin: 0 auto;
+  font-weight: 400;
+  max-width: 1380px;
+}
+
+p,
+li,
+a,
+div,
+span {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #36383b;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  margin: 20px 0;
+  color: #27292b;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+img {
+  vertical-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'Articulat CF', sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+li {
+  font-family: inherit;
+  list-style: none;
+  display: inline-block;
+  padding: 14px 0;
+}
+
+.wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+nav {
+  padding: 16px 0;
+}
+
+.nav li a {
+  color: #161719;
+}
+
+.nav-right li {
+  margin-right: 16px;
+}
+
+.nav-right li:last-child {
+  margin-right: 0;
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+
+.logo {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #161719;
+}
+
+.logo span {
+  font-size: 1.2rem;
+  margin-top: 3px;
+  font-weight: 600;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #171719;
+  color: white;
+  padding: 12px 18px;
+  display: inline-block;
+  border-radius: 22px;
+}
+
+.hero {
+  padding: 80px 0;
+}
+
+.bg-tarawera {
+  background-color: #233849;
+}
+
+.bg-alice-blue {
+  background-color: #f5f8fb;
+}
+
+.bg-orchid-white {
+  background-color: #eee9d7;
+}
+
+.bg-white-smoke {
+  background-color: #f6f6f6;
+}
+
+.bg-pattens-blue {
+  background-color: #ddedf5;
+}
+
+.bg-bridesmaid {
+  background-color: #fce6e1;
+}
+
+.bg-magnolia {
+  background-color: #efe3ff;
+}
+
+.bg-quartz {
+  background-color: #d1cee6;
+}
+
+.bg-alice-blue-2 {
+  background-color: #f5f8fa;
+}
+
+.working {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.working h2 {
+  margin-right: auto;
+}
+
+.card {
+  margin: 4rem auto;
+  max-width: 294px;
+}
+
+.card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card-image {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  max-height: 100%;
+  max-width: 294px;
+}
+
+.card-title {
+  display: inline-block;
+  line-height: 1;
+}
+
+.card-content {
+  margin: 1rem 0;
+}
+
+.card-9 .card-image {
+  display: block;
+  flex-direction: column;
+  padding: 30px 56px 30px;
+}
+
+.card-9 .card-image a {
+  text-decoration: none;
+}
+
+.card-9 p {
+  margin: 24px 0 20px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.footer-nav li {
+  margin: 0 20px;
+}
+
+.companies a {
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 8rem;
+  }
+
+  ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .wrapper {
+    max-width: unset;
+    padding: 0 100px;
+  }
+
+  .mt-lg-0 {
+    margin-top: 0;
+  }
+
+  .nav-right li {
+    margin-right: 40px;
+  }
+
+  .logo span {
+    font-size: 1.5rem;
+    line-height: 42px;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin: 50px 0 80px;
+  }
+
+  .working {
+    display: block;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    max-width: 294px;
+    margin: 4rem 0;
+  }
+
+  .card-2 .alternate {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .working .card-image {
+    width: 294px;
+  }
+
+  .card-1 .card-image {
+    height: 357px;
+  }
+
+  .card-2 .card-image {
+    height: 449px;
+  }
+
+  .card-3 .card-image {
+    height: 251px;
+  }
+
+  .card-1 .card-title {
+    font-size: 4rem;
+    margin-bottom: 8px;
+  }
+
+  .card-2 .card-title {
+    font-size: 2.5rem;
+  }
+
+  .card-3 .card-title {
+    font-size: 3rem;
+    margin-right: 10px;
+    margin-bottom: 34px;
+  }
+
+  .companies h2 {
+    text-align: right;
+  }
+
+  .companies .card-image {
+    width: 294px;
+    height: 294px;
+  }
+
+  .companies .card-content {
+    margin-bottom: 12px;
+  }
+}
